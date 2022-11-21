@@ -1,0 +1,212 @@
+* {
+  margin: auto;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+}
+
+.Atenção {
+  padding: 10px 0;
+  background-color: maroon;
+  text-align: center;
+  color: white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-weight: bold;
+  position: inherit;
+}
+
+.logo_curcumy {
+  width: 150px;
+  padding-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.padding_section {
+  padding-top: 20px;
+}
+
+.backgourd_alivio {
+  background-color: #e3e4e8;
+}
+
+.backgourd_alivio_list {
+  background-color: #e3e4e8;
+  margin-top: -8px;
+  padding-top: 2px;
+}
+
+.font_alivio {
+  font-weight: bold;
+  color: #522a10;
+}
+
+.list_color {
+  color: #522a10;
+}
+
+.font_alivio_principal {
+  font-weight: bold;
+  color: #522a10;
+
+  font-size: 45px;
+}
+
+.position_alivio_h2 {
+  padding-left: 250px;
+  padding-top: 123px;
+}
+
+.position_list_alivio {
+  padding-left: 250px;
+}
+
+.imgalivio {
+  padding: auto;
+  margin-top: -416px;
+  margin-left: 755px;
+  width: 666px;
+}
+
+.button {
+  color: white;
+  background-color: transparent;
+  background-image: linear-gradient(160deg, #33b044 0%, #148023 100%);
+  border: none;
+  font-size: 18px;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #023509;
+  border-radius: 0px 0px 0px 0px;
+  padding: 15px 40px;
+  box-shadow: 0px 0px 10px 0pxrgba (0, 0, 0, 0.5);
+}
+
+.button_alivio {
+  margin-top: 20px;
+  margin-left: 250px;
+}
+
+.text_curcumy_aliviadores {
+  padding-top: 50px;
+}
+
+.font_curcumy_aliviadores {
+  font-weight: bold;
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+
+.img_aliviadores {
+  width: 200px;
+  margin-left: 30px;
+}
+.img_aliviadores_center {
+  margin-top: 30px;
+  display: flex;
+  margin-left: 349px;
+}
+
+.legenda_img {
+  font-size: 15px;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 28px;
+}
+
+.img_div_alivardores {
+  margin: 2px;
+}
+
+.button_aliviadores {
+  margin-top: 12px;
+  margin-left: 610px;
+}
+
+.h2_naodeixe {
+  padding-top: 156px;
+  margin-left: 250px;
+}
+
+.riscolaranja {
+  border: 1px solid orange;
+  margin-left: 250px;
+  width: 200px;
+}
+
+.list_naodeixei {
+  padding-top: 12px;
+}
+
+.imgpot2 {
+  width: 349px;
+  margin-left: 883px;
+  margin-top: -301px;
+}
+
+.backgroudmarron {
+  background-color: #522a10;
+  padding-top: 30px;
+}
+
+.font_depoimentos {
+  color: white;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.imgdepoimento {
+  width: 300px;
+}
+
+.fontimg_depo {
+  color: white;
+  font-weight: bold;
+}
+
+.pimg_depo {
+  color: white;
+}
+
+.gridimgdepo {
+  background-color: #8f4a1d;
+  padding: 20px;
+  margin: 24px;
+}
+
+.padding_vejaporque {
+  padding-top: 60px;
+}
+
+.h2_titulovejaporque {
+  text-align: center;
+  color: #522a10;
+}
+
+.imgwomangota {
+  width: 350px;
+  margin-left: 450px;
+}
+
+.text_vejaporque {
+  margin-left: 865px;
+  margin-top: -194px;
+  color: #522a10;
+  font-weight: bold;
+}
+
+.button_positionvejaporque {
+  margin-top: 92px;
+  margin-left: 642px;
+}
+
+.tex_qualmodo {
+  padding-top: 100px;
+  text-align: center;
+  color: #522a10;
+  font-weight: bold;
+}
