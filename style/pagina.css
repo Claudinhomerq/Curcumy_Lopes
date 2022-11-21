@@ -209,4 +209,138 @@ body {
   text-align: center;
   color: #522a10;
   font-weight: bold;
+  padding-bottom: 50px;
+}
+
+.imgmoduso {
+  width: 200px;
+  margin-left: -41px;
+}
+
+.p_fontmodouso {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.gridmodouso {
+  margin-left: 12px;
+  box-shadow: 0px 0px 37px -25px rgb(43 15 0 / 75%);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 10px 10px 10px 10px;
+  --e-column-margin-right: 10px;
+  --e-column-margin-left: 10px;
+  padding: 20px 20px 20px 20px;
+}
+
+.button_modouso {
+  margin-top: 12px;
+}
+
+#button_gridmodouso {
+  padding-bottom: 60px;
+}
+
+.div_paraquem {
+  background-color: #986c4f;
+  padding-top: 55px;
+  padding-bottom: 12px;
+}
+
+.pot3img {
+  width: 400px;
+  margin: 0;
+}
+
+#pot3imgdiv {
+  margin-top: -568px;
+  margin-left: 355px;
+  padding: 0;
+}
+
+.texth2_paraquem {
+  color: white;
+  margin-left: 850px;
+}
+
+.textp_paraquem {
+  padding-top: 12px;
+  color: white;
+  margin-left: 850px;
+  padding-bottom: 200px;
+}
+
+.text_forcurcumydiv {
+  padding-top: 30px;
+  padding-bottom: 25px;
+}
+
+.text_forcurcumy {
+  color: #522a10;
+  text-align: center;
+}
+
+.imgsegredoformula {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.text_formulaprincipal {
+  font-size: 15px;
+  padding-top: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.textp_formulaprincipal {
+  text-align: center;
+}
+
+.div_decisaotomada {
+  background-color: #522a10;
+}
+
+.text_decisaotomada {
+  text-align: center;
+  padding-top: 25px;
+  color: white;
+}
+
+.textp_decisaotomada {
+  text-align: center;
+  padding-top: 2px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.button_decisotomada {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.garantia_div {
+  background-color: #f6efe5;
+  padding-left: 250px;
+  padding-top: 50px;
+  padding-right: 450px;
+}
+
+.dgarantia {
+  width: 354px;
+}
+
+.imgpositiongarantia {
+  text-align: right;
+  margin-top: -358px;
+}
+
+.text_garantia {
+  color: #522a10;
+  text-align: left;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.button_garantia {
+  text-align: center;
+  padding-bottom: 20px;
 }
