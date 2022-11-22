@@ -1,9 +1,28 @@
 * {
   margin: auto;
   font-family: "Quicksand", sans-serif;
+  scroll-behavior: smooth;
+  padding: 0;
 }
 
-body {
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+li:before {
+  font-family: FontAwesome;
+  content: "\f00c"; /* FontAwesome Unicode */
 }
 
 .Atenção {
@@ -15,6 +34,7 @@ body {
   background-repeat: no-repeat;
   font-weight: bold;
   position: inherit;
+  font-size: 20px;
 }
 
 .logo_curcumy {
@@ -23,129 +43,98 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 25px;
 }
 
-.padding_section {
-  padding-top: 20px;
-}
-
-.backgourd_alivio {
+#slider {
   background-color: #e3e4e8;
+  background-size: contain;
+  padding-bottom: 56px;
 }
 
-.backgourd_alivio_list {
-  background-color: #e3e4e8;
-  margin-top: -8px;
-  padding-top: 2px;
-}
-
-.font_alivio {
+.h2_slider_alivio {
   font-weight: bold;
   color: #522a10;
+  padding-top: 35px;
+  font-size: 45px;
 }
 
 .list_color {
   color: #522a10;
+  font-size: 25px;
+  font-weight: bolder;
 }
 
-.font_alivio_principal {
-  font-weight: bold;
-  color: #522a10;
-
-  font-size: 45px;
-}
-
-.position_alivio_h2 {
-  padding-left: 250px;
-  padding-top: 123px;
-}
-
-.position_list_alivio {
-  padding-left: 250px;
+.button_slider_alivio {
+  padding-top: 16px;
 }
 
 .imgalivio {
-  padding: auto;
-  margin-top: -416px;
-  margin-left: 755px;
   width: 666px;
+  padding-top: 35px;
 }
 
 .button {
-  color: white;
   background-color: transparent;
-  background-image: linear-gradient(160deg, #33b044 0%, #148023 100%);
+  background-image: linear-gradient(160deg, #45dd59 0%, #148023 100%);
   border: none;
   font-size: 18px;
   border-style: solid;
   border-width: 0px 0px 3px 0px;
   border-color: #023509;
   border-radius: 0px 0px 0px 0px;
-  padding: 15px 40px;
-  box-shadow: 0px 0px 10px 0pxrgba (0, 0, 0, 0.5);
-}
-
-.button_alivio {
-  margin-top: 20px;
-  margin-left: 250px;
-}
-
-.text_curcumy_aliviadores {
-  padding-top: 50px;
-}
-
-.font_curcumy_aliviadores {
+  padding: 25px 40px;
   font-weight: bold;
-  color: black;
-  font-size: 35px;
+  color: white;
+}
+
+#h2_curcumy_aliviadores {
+  padding-top: 50px;
+  font-size: 45px;
+  color: #522a10;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+.p_curcumy_aliviadores {
+  font-weight: bolder;
+  color: #522a10;
+  font-size: 20px;
   text-align: center;
 }
 
 .img_aliviadores {
-  width: 200px;
-  margin-left: 30px;
-}
-.img_aliviadores_center {
-  margin-top: 30px;
-  display: flex;
-  margin-left: 349px;
+  width: 300px;
 }
 
-.legenda_img {
-  font-size: 15px;
-  text-align: center;
-  font-weight: bold;
-  margin-left: 28px;
-}
-
-.img_div_alivardores {
-  margin: 2px;
-}
-
-.button_aliviadores {
-  margin-top: 12px;
-  margin-left: 610px;
+.button_slider2_alivio {
+  padding-top: 25px;
 }
 
 .h2_naodeixe {
-  padding-top: 156px;
-  margin-left: 250px;
+  padding-top: 80px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #522a10;
+  padding-bottom: 25px;
 }
 
-.riscolaranja {
-  border: 1px solid orange;
-  margin-left: 250px;
-  width: 200px;
+.list_naodeixe {
+  font-size: 20px;
+  color: #522a10;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid black;
 }
 
-.list_naodeixei {
-  padding-top: 12px;
+#sembordar {
+  border-bottom: none;
 }
 
 .imgpot2 {
   width: 349px;
-  margin-left: 883px;
-  margin-top: -301px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .backgroudmarron {
@@ -157,6 +146,7 @@ body {
   color: white;
   text-align: center;
   padding-bottom: 12px;
+  font-weight: bold;
 }
 
 .imgdepoimento {
@@ -182,26 +172,29 @@ body {
   padding-top: 60px;
 }
 
-.h2_titulovejaporque {
+/* vejaporque */
+.h2_vejaporque {
   text-align: center;
   color: #522a10;
-}
-
-.imgwomangota {
-  width: 350px;
-  margin-left: 450px;
-}
-
-.text_vejaporque {
-  margin-left: 865px;
-  margin-top: -194px;
-  color: #522a10;
+  padding-top: 55px;
   font-weight: bold;
+  font-size: 45px;
 }
 
-.button_positionvejaporque {
-  margin-top: 92px;
-  margin-left: 642px;
+.imgsub_vejaporqeu {
+  width: 450px;
+  padding-top: 25px;
+}
+
+.p_vejaporque {
+  color: #522a10;
+  padding-top: 60px;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+.button_vejaporque {
+  margin-top: 30px;
 }
 
 .tex_qualmodo {
@@ -214,7 +207,6 @@ body {
 
 .imgmoduso {
   width: 200px;
-  margin-left: -41px;
 }
 
 .p_fontmodouso {
@@ -223,12 +215,8 @@ body {
 }
 
 .gridmodouso {
-  margin-left: 12px;
   box-shadow: 0px 0px 37px -25px rgb(43 15 0 / 75%);
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  margin: 10px 10px 10px 10px;
-  --e-column-margin-right: 10px;
-  --e-column-margin-left: 10px;
   padding: 20px 20px 20px 20px;
 }
 
@@ -240,15 +228,27 @@ body {
   padding-bottom: 60px;
 }
 
-.div_paraquem {
+.slider3_paraquem {
   background-color: #986c4f;
   padding-top: 55px;
+}
+.div_paraquem {
   padding-bottom: 12px;
 }
 
 .pot3img {
-  width: 400px;
-  margin: 0;
+  width: 500px;
+}
+
+.h2_paraquem {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+
+.p_paraquem {
+  font-size: 20px;
+  color: white;
 }
 
 #pot3imgdiv {
@@ -277,6 +277,7 @@ body {
 .text_forcurcumy {
   color: #522a10;
   text-align: center;
+  font-weight: bold;
 }
 
 .imgsegredoformula {
@@ -295,52 +296,200 @@ body {
   text-align: center;
 }
 
-.div_decisaotomada {
-  background-color: #522a10;
-}
-
-.text_decisaotomada {
-  text-align: center;
+.slider_4_naomaistempo {
+  background-color: #986c4f;
   padding-top: 25px;
+}
+
+.h2_naomaistempo {
   color: white;
-}
-
-.textp_decisaotomada {
-  text-align: center;
-  padding-top: 2px;
-  padding-bottom: 10px;
-  color: white;
-}
-
-.button_decisotomada {
-  text-align: center;
-  padding-bottom: 20px;
-}
-
-.garantia_div {
-  background-color: #f6efe5;
-  padding-left: 250px;
-  padding-top: 50px;
-  padding-right: 450px;
-}
-
-.dgarantia {
-  width: 354px;
-}
-
-.imgpositiongarantia {
-  text-align: right;
-  margin-top: -358px;
-}
-
-.text_garantia {
-  color: #522a10;
-  text-align: left;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 35px;
+}
+
+.p_naomaistempo {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.button_naomaistempo {
+  padding-bottom: 49px;
+}
+
+.slider5_garantia {
+  background-color: #f6efe5;
+}
+
+.h2_garantia {
+  font-size: 45px;
+  font-weight: bold;
+  color: #522a10;
+  padding-top: 45px;
+}
+
+.p_garantia {
+  font-size: 18px;
+  color: #522a10;
+}
+
+.imggarantia {
+  width: 450px;
+  padding-top: 45px;
 }
 
 .button_garantia {
-  text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 26px;
+}
+
+.h2_oferta {
+  font-size: 45px;
+  font-weight: bold;
+  color: #522a10;
+  padding-top: 45px;
+}
+
+/*FRASCOS */
+.imgfrascobuy {
+  width: 250px;
+}
+
+.imgfrascobuy2 {
+  width: 298px;
+}
+
+.imgfrascobuy1 {
+  width: 120px;
+}
+.imgfrete {
+  width: 110px;
+  padding-bottom: 5px;
+}
+
+.imgcomprasegura {
+  width: 550px;
+  padding-bottom: 25px;
+}
+
+.button_compra {
+  background-color: transparent;
+  background-image: linear-gradient(160deg, #45dd59 0%, #148023 100%);
+  border: none;
+  font-size: 18px;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #023509;
+  border-radius: 0px 0px 0px 0px;
+  padding: 15px 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.tratamento {
+  background-color: transparent;
+  font-family: "Montserrat", Sans-serif;
+  font-size: 14px;
+  font-weight: 200px;
+  color: #e67e00;
+  background-color: #f39a2e30;
+  border-radius: 50px 50px 50px 50px;
+  padding: 7px 10px 7px 10px;
+  border: none;
+  font-weight: bold;
+}
+
+.h5_preco {
+  color: orange;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.p_desconto {
+  color: grey;
+  font-weight: bold;
+}
+
+.h2_NATURAL {
+  color: #522a10;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.p_NATURAL {
+  color: #522a10;
+}
+
+.slider7_perguntas {
+  background-color: #522a10;
+  padding-bottom: 38px;
+}
+
+.h2_perguntas {
+  color: white;
+  text-align: left;
+  padding-top: 55px;
+}
+
+.textperguntas {
+  color: #522a10;
+}
+
+.infopgzap {
+  padding-top: 85px;
+}
+
+.h2_textfooot {
+  color: white;
+  font-size: 25px;
+}
+
+.imgformapg {
+  width: 241px;
+}
+
+.imgseguro {
+  width: 241px;
+}
+
+.button_Rastrear {
+  background-color: transparent;
+  background-image: linear-gradient(160deg, #eea302 0%, #e7530e 100%);
+  border: none;
+  font-size: 18px;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #023509;
+  border-radius: 0px 0px 0px 0px;
+  padding: 15px 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.button_WhatsApp {
+  background-color: transparent;
+  background-image: linear-gradient(160deg, #45dd59 0%, #148023 100%);
+  border: none;
+  font-size: 18px;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #023509;
+  border-radius: 0px 0px 0px 0px;
+  padding: 15px 40px;
+  font-weight: bold;
+  color: white;
+}
+
+.espaco_pg {
+  padding-top: 28px;
+}
+
+.diretos {
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.h2diretos {
+  font-size: 20px;
 }

@@ -1,0 +1,70 @@
+@media only screen and (min-width: 500px) and (max-width: 800px) {
+  #h2_curcumy_aliviadores {
+    font-size: 35px;
+  }
+
+  .img_aliviadores {
+    width: 200px;
+  }
+
+  .h2_naodeixe {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .imgpot2 {
+    width: 400px;
+  }
+
+  .font_depoimentos {
+    font-size: 25px;
+  }
+
+  .h2_vejaporque {
+    font-size: 30px;
+  }
+
+  .p_vejaporque {
+    text-align: center;
+  }
+
+  .h2_paraquem {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .p_paraquem {
+    text-align: center;
+  }
+
+  .text_forcurcumy {
+    font-size: 30px;
+  }
+
+  .h2_garantia {
+    text-align: center;
+  }
+
+  .p_garantia {
+    text-align: center;
+  }
+
+  .imgcomprasegura {
+    width: 450px;
+  }
+
+  .h2_NATURAL {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .p_NATURAL {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .h2_perguntas {
+    font-size: 45px;
+    padding-bottom: 15px;
+  }
+}
