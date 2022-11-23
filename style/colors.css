@@ -1,0 +1,7 @@
+:root {
+  --color-backgroudcinza: #e3e4e8;
+  --color-backgroudmarrom: #522a10;
+  --color-fonte-marrom: #522a10;
+  --risco-laranja: linear-gradient(to right, transparent, orange, transparent);
+  --risco-marrom: linear-gradient(to right, transparent, #522a10, transparent);
+}

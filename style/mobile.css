@@ -1,10 +1,28 @@
-@media only screen and (min-width: 500px) and (max-width: 800px) {
-  #h2_curcumy_aliviadores {
-    font-size: 35px;
+@import url(global.css);
+
+@media (max-width: 768px) {
+  .Atenção {
+    font-size: 17px;
+  }
+
+  .logo_curcumy {
+    width: 200px;
+  }
+
+  .h2_slider_alivio {
+    font-size: 28px;
   }
 
   .img_aliviadores {
     width: 200px;
+  }
+
+  #h2_curcumy_aliviadores {
+    font-size: 30px;
+  }
+
+  .p_curcumy_aliviadores {
+    font-size: 16px;
   }
 
   .h2_naodeixe {
@@ -17,11 +35,11 @@
   }
 
   .font_depoimentos {
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .h2_vejaporque {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .p_vejaporque {
@@ -30,11 +48,15 @@
 
   .h2_paraquem {
     text-align: center;
-    font-size: 28px;
+    font-size: 25px;
   }
 
   .p_paraquem {
     text-align: center;
+  }
+
+  .h2_naomaistempo {
+    font-size: 28px;
   }
 
   .text_forcurcumy {
@@ -43,6 +65,7 @@
 
   .h2_garantia {
     text-align: center;
+    font-size: 30px;
   }
 
   .p_garantia {
@@ -51,6 +74,10 @@
 
   .imgcomprasegura {
     width: 450px;
+  }
+
+  .button_compra {
+    padding: 10px 30px;
   }
 
   .h2_NATURAL {

@@ -1,33 +1,9 @@
-* {
-  margin: auto;
-  font-family: "Quicksand", sans-serif;
-  scroll-behavior: smooth;
-  padding: 0;
-}
+@import url(colors.css);
 
-a:link,
-a:visited,
-a:active {
-  text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  color: white;
-}
-
-li {
-  list-style: none;
-}
-
-li:before {
-  font-family: FontAwesome;
-  content: "\f00c"; /* FontAwesome Unicode */
-}
-
+/*HEADER */
 .Atenção {
   padding: 10px 0;
-  background-color: maroon;
+  background-color: var(--color-backgroudmarrom);
   text-align: center;
   color: white;
   background-size: cover;
@@ -37,8 +13,9 @@ li:before {
   font-size: 20px;
 }
 
+/* Logo do Curcumy */
 .logo_curcumy {
-  width: 150px;
+  width: 170px;
   padding-top: 20px;
   display: block;
   margin-left: auto;
@@ -46,52 +23,47 @@ li:before {
   padding-bottom: 25px;
 }
 
+/* Alivio das Dores */
 #slider {
-  background-color: #e3e4e8;
+  background-color: var(--color-backgroudcinza);
   background-size: contain;
-  padding-bottom: 56px;
+  padding-bottom: 70px;
+  padding-top: 70px;
 }
 
 .h2_slider_alivio {
   font-weight: bold;
-  color: #522a10;
+  color: var(--color-fonte-marrom);
   padding-top: 35px;
-  font-size: 45px;
+  padding-bottom: 4px;
+  font-size: 35px;
 }
 
 .list_color {
-  color: #522a10;
-  font-size: 25px;
-  font-weight: bolder;
+  color: var(--color-fonte-marrom);
+  font-size: 26px;
+}
+
+.font_list_slider {
+  font-size: 19px;
+  font-weight: 500;
 }
 
 .button_slider_alivio {
-  padding-top: 16px;
+  padding-top: 17px;
 }
 
 .imgalivio {
-  width: 666px;
+  width: 1000px;
   padding-top: 35px;
 }
 
-.button {
-  background-color: transparent;
-  background-image: linear-gradient(160deg, #45dd59 0%, #148023 100%);
-  border: none;
-  font-size: 18px;
-  border-style: solid;
-  border-width: 0px 0px 3px 0px;
-  border-color: #023509;
-  border-radius: 0px 0px 0px 0px;
-  padding: 25px 40px;
-  font-weight: bold;
-  color: white;
-}
+/* Curcumy Alivia */
 
 #h2_curcumy_aliviadores {
   padding-top: 50px;
   font-size: 45px;
-  color: #522a10;
+  color: var(--color-fonte-marrom);
   padding-bottom: 15px;
   font-weight: bold;
 }
@@ -104,11 +76,25 @@ li:before {
 }
 
 .img_aliviadores {
-  width: 300px;
+  width: 200px;
 }
 
 .button_slider2_alivio {
   padding-top: 25px;
+}
+
+/* NAO DEIXEI */
+
+#slider_naodeixe {
+  padding-top: 115px;
+  padding-bottom: 55px;
+}
+
+.riscolaranja {
+  border: 0;
+  height: 2px;
+  background-image: var(--risco-laranja);
+  margin-bottom: 27px;
 }
 
 .h2_naodeixe {
@@ -120,11 +106,21 @@ li:before {
 }
 
 .list_naodeixe {
-  font-size: 20px;
-  color: #522a10;
-  padding-top: 2px;
-  padding-bottom: 4px;
-  border-bottom: 1px solid black;
+  font-size: 25px;
+  margin-top: -12px;
+}
+
+.font_list_naodeixe {
+  font-size: 18px;
+  font-weight: 300;
+  color: var(-color-fonte-marrom);
+}
+
+#riscomarrom {
+  margin-top: 2px;
+  background-image: var(--risco-marrom);
+  border: 0;
+  height: 2px;
 }
 
 #sembordar {
@@ -132,14 +128,17 @@ li:before {
 }
 
 .imgpot2 {
-  width: 349px;
+  width: 449px;
   padding-top: 80px;
   padding-bottom: 80px;
 }
 
+/*backoudmarrom */
+
 .backgroudmarron {
   background-color: #522a10;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .font_depoimentos {
@@ -156,10 +155,12 @@ li:before {
 .fontimg_depo {
   color: white;
   font-weight: bold;
+  padding-top: 10px;
 }
 
 .pimg_depo {
   color: white;
+  font-weight: 300;
 }
 
 .gridimgdepo {
@@ -168,11 +169,12 @@ li:before {
   margin: 24px;
 }
 
+/* vejaporque */
+
 .padding_vejaporque {
   padding-top: 60px;
 }
 
-/* vejaporque */
 .h2_vejaporque {
   text-align: center;
   color: #522a10;
@@ -190,12 +192,14 @@ li:before {
   color: #522a10;
   padding-top: 60px;
   font-size: 25px;
-  font-weight: normal;
+  font-weight: 300;
 }
 
 .button_vejaporque {
   margin-top: 30px;
 }
+
+/*modouso*/
 
 .tex_qualmodo {
   padding-top: 100px;
@@ -220,18 +224,29 @@ li:before {
   padding: 20px 20px 20px 20px;
 }
 
+.gridmodouso_2 {
+  padding-bottom: 47px;
+}
+
+.gridmodouso_3 {
+  padding-bottom: 73px;
+}
+
 .button_modouso {
-  margin-top: 12px;
+  margin-top: 55px;
 }
 
 #button_gridmodouso {
   padding-bottom: 60px;
 }
 
+/* Paraquem */
+
 .slider3_paraquem {
   background-color: #986c4f;
   padding-top: 55px;
 }
+
 .div_paraquem {
   padding-bottom: 12px;
 }
@@ -249,6 +264,7 @@ li:before {
 .p_paraquem {
   font-size: 20px;
   color: white;
+  font-weight: 300;
 }
 
 #pot3imgdiv {
@@ -268,6 +284,8 @@ li:before {
   margin-left: 850px;
   padding-bottom: 200px;
 }
+
+/*formulacurcumy */
 
 .text_forcurcumydiv {
   padding-top: 30px;
@@ -301,6 +319,8 @@ li:before {
   padding-top: 25px;
 }
 
+/* nao maistempo */
+
 .h2_naomaistempo {
   color: white;
   font-weight: bold;
@@ -317,8 +337,11 @@ li:before {
   padding-bottom: 49px;
 }
 
+/* Garantia */
+
 .slider5_garantia {
   background-color: #f6efe5;
+  padding-bottom: 25px;
 }
 
 .h2_garantia {
@@ -331,6 +354,7 @@ li:before {
 .p_garantia {
   font-size: 18px;
   color: #522a10;
+  font-weight: 300;
 }
 
 .imggarantia {
@@ -342,11 +366,14 @@ li:before {
   padding-bottom: 26px;
 }
 
+/*Oferta*/
+
 .h2_oferta {
   font-size: 45px;
   font-weight: bold;
   color: #522a10;
   padding-top: 45px;
+  padding-bottom: 35px;
 }
 
 /*FRASCOS */
@@ -367,13 +394,14 @@ li:before {
 }
 
 .imgcomprasegura {
-  width: 550px;
-  padding-bottom: 25px;
+  width: 450px;
+  padding-bottom: 35px;
+  padding-top: 20px;
 }
 
 .button_compra {
   background-color: transparent;
-  background-image: linear-gradient(160deg, #45dd59 0%, #148023 100%);
+  background-image: linear-gradient(160deg, #1ea12f 0%, #1d8d2c 100%);
   border: none;
   font-size: 18px;
   border-style: solid;
@@ -398,6 +426,10 @@ li:before {
   font-weight: bold;
 }
 
+.pgmaneto {
+  height: 12px;
+}
+
 .h5_preco {
   color: orange;
   font-weight: bold;
@@ -409,6 +441,8 @@ li:before {
   font-weight: bold;
 }
 
+/* NATURAL */
+
 .h2_NATURAL {
   color: #522a10;
   font-weight: bold;
@@ -417,7 +451,10 @@ li:before {
 
 .p_NATURAL {
   color: #522a10;
+  font-weight: 500;
 }
+
+/* Perguntas */
 
 .slider7_perguntas {
   background-color: #522a10;
@@ -428,10 +465,14 @@ li:before {
   color: white;
   text-align: left;
   padding-top: 55px;
+  padding-bottom: 55px;
 }
 
 .textperguntas {
   color: #522a10;
+  margin-left: 12px;
+  margin-bottom: 0px;
+  font-weight: bold;
 }
 
 .infopgzap {
@@ -441,6 +482,7 @@ li:before {
 .h2_textfooot {
   color: white;
   font-size: 25px;
+  padding-bottom: 12px;
 }
 
 .imgformapg {
