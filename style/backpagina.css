@@ -1,0 +1,19 @@
+#slider_backgroud_oferta {
+  background-color: var(--color-backgroudmarrom);
+  padding-top: 15px;
+}
+
+.h2_ofertaespecial {
+  color: yellow;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.h5_ofertaespecial {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+}

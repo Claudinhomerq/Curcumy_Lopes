@@ -4,4 +4,5 @@
   --color-fonte-marrom: #522a10;
   --risco-laranja: linear-gradient(to right, transparent, orange, transparent);
   --risco-marrom: linear-gradient(to right, transparent, #522a10, transparent);
+  --image-svg-zap: url("img/icons8-whatsapp.svg");
 }

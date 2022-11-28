@@ -161,6 +161,7 @@
 .pimg_depo {
   color: white;
   font-weight: 300;
+  text-align: center;
 }
 
 .gridimgdepo {
@@ -545,4 +546,11 @@
 
 .h2diretos {
   font-size: 20px;
+}
+
+.zap {
+  background-repeat: no-repeat;
+  background-size: 2px;
+  background-position: -25px;
+  color: white;
 }
